@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>KMI Skaičiuoklė</title>
+</h:head>
+<h:body>
+	<h:form>
+		Ūgis:
+		<h:inputText value="#{KMI.ugis}" />
+		<br />
+		<br />
+		Svoris:
+		<h:inputText value="#{KMI.ugis}" />
+		<br />
+		<h:selectOneRadio value="#{KMI.lytis}">
+			<f:selectItem itemValue="Vyras" itemLabel="Vyras" />
+			<f:selectItem itemValue="Moteris" itemLabel="Moteris" />
+		</h:selectOneRadio>
+		<!--  <h:commandButton value="Skaičiuoti" action="" /> -->
+	</h:form>
+</h:body>
+</html>
